@@ -26,4 +26,4 @@ def main():
   * tf
 
 
-![kevin hart]()
+![kevin hart]({{site.baseurl}}/assets/img/kh.jpg)
