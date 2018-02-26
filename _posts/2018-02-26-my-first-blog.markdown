@@ -10,3 +10,18 @@ tags: [Productivity, Software] # add tag
 ### Hello
 
 what do you think of my first blog.
+
+### I want to write something about how to make robot model with urdf or xacro language and moveit whole pipeline
+```python
+import numpy as np
+import matplotlib as pl
+
+def main():
+  hjksfahjk
+```
+
+>let's have a look at the **code** first.
+* urdf
+  * xacro
+  * tf
+  
