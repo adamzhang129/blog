@@ -25,5 +25,5 @@ def main():
   * xacro
   * tf
 
-
+![Macbook]({{site.baseurl}}/assets/img/mac.jpg)
 ![kevin hart]({{site.baseurl}}/assets/img/kh.jpg)
