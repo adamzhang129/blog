@@ -111,5 +111,5 @@ Can be used to load shared object libxxxxx.so into memory after make install.
 In build or release dir: 
 Use cmake –DCMAKE_PREFIX_PATH="path to your dir containing xxxconfig.cmake" .. 
 
-
+#### you can create .conf file in /etc/ld.so.conf.d when you run into _ld return error_
 
