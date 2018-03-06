@@ -27,7 +27,7 @@ The -S option specifies to produce assembly code, instead of object code. The re
 * Finally, linker(ld) will do linking that link **machine code** with **static library (.lib, .a)** to generate executable machine code.
 > ld -o hello.exe hello.o ...libraries... 
 
-###Headers (.h), static libraries(.lib, .a) and shared library (.dll, .so) 
+### Headers (.h), static libraries(.lib, .a) and shared library (.dll, .so) 
 
 Library: collection of pre-compiled object files that can be linked into your programs via the linker. Like prinf() and sqrt() 
 
