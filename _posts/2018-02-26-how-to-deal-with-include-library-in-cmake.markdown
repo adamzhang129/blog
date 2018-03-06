@@ -12,10 +12,12 @@ tags: [C++, Compiling] # add tag
 Usually non-script language like C++, C and etc need to be compiled to use. In linux system, for C++ project, we normally use g++ from GNU to do compiling, and there are multiple steps:
 * Pre-processing: via the GNU C Preprocessor (cpp.exe), which includes the headers (#include) and expands the macros 
 > cpp hello.c > hello.i 
+
 The resultant intermediate file "hello.i" contains the expanded source code. 
  
 * Compilation: g++ or gcc do compilation to generate Assembly code(.s), 
 > gcc -S hello.i
+
 The -S option specifies to produce assembly code, instead of object code. The resultant assembly file is "hello.s".
 
 * Assembler collect .s files to generate machine code (.o .obj)
