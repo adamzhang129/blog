@@ -10,6 +10,7 @@ tags: [C++, Compiling] # add tag
 ### Multiple compiling steps integrated into one steps in cmake system.
 
 Usually non-script language like C++, C and etc need to be compiled to use. In linux system, for C++ project, we normally use g++ from GNU to do compiling, and there are multiple steps:
+![]({{site.baseurl}}/assets/img/GetImage.png)
 * Pre-processing: via the GNU C Preprocessor (cpp.exe), which includes the headers (#include) and expands the macros 
 > cpp hello.c > hello.i 
 
@@ -111,4 +112,4 @@ In build or release dir:
 Use cmake –DCMAKE_PREFIX_PATH="path to your dir containing xxxconfig.cmake" .. 
 
 
-![kevin hart]({{site.baseurl}}/assets/img/kh.jpg)
+
