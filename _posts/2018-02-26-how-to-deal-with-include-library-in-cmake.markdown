@@ -98,7 +98,7 @@ find_package(OpenCV EXACT version REQUIRED)
 ```
 Or alternatively in terminal, before you run **cmake ..**, run this
 ```bash
-xport CMAKE_PREFIX_PATH=/usr/local:$CMAKE_PREFIX_PATH
+export CMAKE_PREFIX_PATH=/usr/local:$CMAKE_PREFIX_PATH
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 ```
 This should give preference to your custom OpenCV installation when doing the find_package(OpenCV 3.0.0 REQUIRED)
