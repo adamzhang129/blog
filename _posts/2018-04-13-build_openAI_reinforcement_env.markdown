@@ -71,4 +71,5 @@ by now you can run
 in your code or you can test with mujoco_py/examples.
 
 [1] https://link.zhihu.com/?target=https%3A//github.com/openai/mujoco-py/pull/145
+
 [2] https://github.com/openai/mujoco-py/issues/44
