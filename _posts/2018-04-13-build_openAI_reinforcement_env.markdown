@@ -33,11 +33,11 @@ mail to register.
 After downloading, uzip it to **~/.mujoco/mjp150** and move the downloaded key file (usually named **mjkey.txt**) to 
 **~/.mujoco/mjp150/bin** & **~/.mujoco** and then run sample code in **bin**directory.
 
-Then run in terminal: 
-`export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/adam/.mujoco/mjpro150/bin
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia-390
-export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so:/usr/lib/nvidia-390/libGL.so
-`
+Then run in terminal:
+
+> `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/adam/.mujoco/mjpro150/bin
+> export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia-390
+> `
 or put then in ~/.bashrc
 
 ### Install mujoco_py
@@ -50,7 +50,7 @@ another workaround I saw is to reduce you version of mujoco_py 1.3 and coorepond
 adjusted.
 
 
-BTW you need to `sudo apt-get install libglew-dev` before importing, otherwise you won't pass compiling.
+BTW you need to `sudo apt-get install libglew-dev libglfw-dev` before importing, otherwise you won't pass compiling.
 
 by now you can run `env.render()` in your code or you can test with mujoco_py/examples.
 
