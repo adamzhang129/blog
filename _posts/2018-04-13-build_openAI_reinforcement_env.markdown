@@ -45,8 +45,10 @@ or put then in ~/.bashrc
 
 Download from https://github.com/openai/mujoco-py and the install using
 
-`sudo pip3 install --no-cache-dir -e .
-echo "export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so:/usr/lib/nvidia-390/libGL.so" >> ~/.bashrc`
+`
+sudo pip3 install --no-cache-dir -e .
+echo "export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so:/usr/lib/nvidia-390/libGL.so" >> ~/.bashrc
+`
 
 
 this installation code can solve **GLEW initalization error: Missing GL version** error when importing.
@@ -55,6 +57,7 @@ adjusted.
 
 
 BTW you need to 
+
 `sudo apt-get install libglew-dev libglfw-dev`
 
 before importing, otherwise you won't pass compiling.
