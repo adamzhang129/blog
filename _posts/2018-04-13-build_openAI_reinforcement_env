@@ -7,6 +7,16 @@ img: we-in-rest.jpg # Add image post (optional)
 tags: [C++, Compiling] # add tag
 ---
 
+### Brief Intro
+
+OpenAI offer a environment **gym** for reinforcement learning research. Lately, they anounced 8 new playgrounds for robotic manipulation task learning.
+Details in publication at https://arxiv.org/pdf/1802.09464.pdf . Before seeing this, I turned to ROS+Gazebo for doing manipulation simulation tasks,
+which is not the integratable compared to the env offered by **gym**.
+
+However, the **mujoco_py** from OpenAI is not working out of the box. I encountered errors during the installation.
+So from here on, I will post problems I ran into and the solution I found.
+
+
 ### System and environment
 
 > * ubuntu 16.04
