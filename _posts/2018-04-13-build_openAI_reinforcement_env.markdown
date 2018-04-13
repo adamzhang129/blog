@@ -36,23 +36,34 @@ After downloading, uzip it to **~/.mujoco/mjp150** and move the downloaded key f
 Then run in terminal:
 
 > `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/adam/.mujoco/mjpro150/bin
-> export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia-390
+>   export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia-390
 > `
+
 or put then in ~/.bashrc
 
 ### Install mujoco_py
 
 Download from https://github.com/openai/mujoco-py and the install using
+
 `sudo pip3 install --no-cache-dir -e .
 echo "export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so:/usr/lib/nvidia-390/libGL.so" >> ~/.bashrc`
+
+
 this installation code can solve **GLEW initalization error: Missing GL version** error when importing.
 another workaround I saw is to reduce you version of mujoco_py 1.3 and cooreponding gym MUJOCO version need to be 
 adjusted.
 
 
-BTW you need to `sudo apt-get install libglew-dev libglfw-dev` before importing, otherwise you won't pass compiling.
+BTW you need to 
+`sudo apt-get install libglew-dev libglfw-dev`
 
-by now you can run `env.render()` in your code or you can test with mujoco_py/examples.
+before importing, otherwise you won't pass compiling.
+
+by now you can run 
+
+`env.render()`
+
+in your code or you can test with mujoco_py/examples.
 
 [1] https://link.zhihu.com/?target=https%3A//github.com/openai/mujoco-py/pull/145
 [2] https://github.com/openai/mujoco-py/issues/44
