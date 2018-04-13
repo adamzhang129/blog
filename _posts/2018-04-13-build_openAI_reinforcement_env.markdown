@@ -35,10 +35,10 @@ After downloading, uzip it to **~/.mujoco/mjp150** and move the downloaded key f
 
 Then run in terminal:
 
-> `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/adam/.mujoco/mjpro150/bin
+> `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/adam/.mujoco/mjpro150/bin`
 >   
-> export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia-390
-> `
+> `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia-390`
+
 
 or put then in ~/.bashrc
 
@@ -47,9 +47,9 @@ or put then in ~/.bashrc
 Download from https://github.com/openai/mujoco-py and the install using
 
 `
-sudo pip3 install --no-cache-dir -e .
+sudo pip3 install --no-cache-dir -e .`
 
-echo "export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so:/usr/lib/nvidia-390/libGL.so" >> ~/.bashrc
+`echo "export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so:/usr/lib/nvidia-390/libGL.so" >> ~/.bashrc
 `
 
 
