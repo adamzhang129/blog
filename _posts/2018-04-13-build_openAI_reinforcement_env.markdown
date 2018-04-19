@@ -35,9 +35,10 @@ After downloading, uzip it to **~/.mujoco/mjp150** and move the downloaded key f
 
 Then run in terminal:
 
-> `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/adam/.mujoco/mjpro150/bin`
->   
-> `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia-390`
+```python
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/adam/.mujoco/mjpro150/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia-390
+```
 
 
 or put then in ~/.bashrc
