@@ -1,28 +1,21 @@
 ---
 layout: post
-title: How to build up environment for reinforcement learning using MUJOCO, mujoco_py and OpenAI gym.
-date: 2018-04-13 12:00:00 +0300
+title: Use Force torque sensor in ubuntu.
+date: 2018-06-04 12:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: we-in-rest.jpg # Add image post (optional)
-tags: [C++, Compiling] # add tag
+tags: [Force torque sensor, linux] # add tag
 ---
 
-### Brief Intro
+### Motivation
 
-OpenAI offer a environment **gym** for reinforcement learning research. Lately, they anounced 8 new playgrounds for robotic manipulation task learning.
-Details in publication at https://arxiv.org/pdf/1802.09464.pdf . Before seeing this, I turned to ROS+Gazebo for doing manipulation simulation tasks,
-which is not the integratable compared to the env offered by **gym**.
-
-However, the **mujoco_py** from OpenAI is not working out of the box. I encountered errors during the installation.
-So from here on, I will post problems I ran into and the solution I found.
+For the need in research, I have to work with force torque sensor **Mini 27** from ATI industry in ubuntu system.
+This post serve as a reminder and note of my exploration and progression to fulfill the need in this scenario.
 
 
 ### System and environment
 
 > * ubuntu 16.04
-> * python 3.5 (local env)
-> * MUJOCO 150
-> * mujoco_py 1.5 latest version
 
 
 ### Get MUJOCO set up
